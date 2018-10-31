@@ -33,7 +33,7 @@ eureka:
     prefer-ip-address: true
   client: 
     service-url: 
-      defaultZone: http://eureka7001:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
       
 info:
   app.name: sanluwu-springcloudconfig
@@ -71,7 +71,7 @@ eureka:
     prefer-ip-address: true
   client: 
     service-url: 
-      defaultZone: http://eureka7001:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
       
 info:
   app.name: sanluwu-springcloudconfig
