@@ -13,9 +13,9 @@ eureka:
   instance: 
     hostname: eureka7001.com  #冒号后面必须要有空格
   client: 
-    register-with-eureka: false #当前的eureka-server 自己不注册进服务列表中
+    register-with-eureka: false    #当前的eureka-server 自己不注册进服务列表中
     service-url: 
-      defaultZone: http://eureka7001:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
 ---
 server: 
   port: 7001
@@ -25,8 +25,8 @@ spring:
     name: microservicecloud-config-eureka-client
 eureka: 
   instance: 
-    hostname: eureka7001.com  #冒号后面必须要有空格
+    hostname: eureka7001.com   
   client: 
-    register-with-eureka: false #当前的eureka-server 自己不注册进服务列表中
+    register-with-eureka: false  
     service-url: 
-      defaultZone: http://eureka7001:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
